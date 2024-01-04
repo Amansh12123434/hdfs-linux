@@ -1,0 +1,187 @@
+java -version
+    2  sudo apt update
+    3  sudo apt install openjdk-8-jre-headless
+    4  java -version
+    5  vim
+    6  vim -version
+    7  vi
+    8  ls
+    9  cat input.txt
+   10  /usr/local/hadoop
+   11  /usr/local/java
+  
+   14  java -version
+   15  tar -xzvf hadoop-1.8.0_392.tar.gz
+   16  clear
+   17  cd /usr/lib/jvm/
+   18  ls
+   19  cd..
+   20  tar -zxvf ~/Home/hadoop-3.3.5.tar.gz
+   21  ls -al hadoop-3.3.5.tar.gz
+   22  sudo apt update
+   23  ls
+   24  cat ls
+   25  cd Home
+   26  cd
+   27  ls -al hadoop-3.3.5.tar.gz
+   28  cd /usr/lib/jvm/java-8-openjdk-amd64/
+   29  cd usr/lib/jvm
+   30  cd /usr/lib/jvm/java-8-openjdk-amd64
+   31  cd /usr/lib/jvm
+   32  cd /usr/lib/jvm/
+   33  ls
+   34  vs .bashrc
+   35  vi .bashrc
+   36  echo $JAVA_HOME
+   37  hadoop
+   38  echo $HADOOP_HOME
+   39  vi .bashrc
+   40  gedit bash.rc
+   41  echo $JAVA_HOME
+   42  gedit .bashrc
+   43  vi ~/.bashrc
+   44  gedit ~/.bashrc
+   45  echo $HADOOP_HOME
+   46  hadoop
+   47  gedit .bashrc
+   48  exit
+   49  echo $JAVA_HOME
+   50  gedit .bashrc
+   51  echo $HADOOP_HOME
+   52  hadoop
+   53  gedit .bashrc
+   54  hadoop
+   55  vi input.txt
+   56  hadoop
+   
+   58  gedit .bashrc
+   59  hadoop
+   60  echo $HADOOP_HOME
+   61  hadoop
+   62  cd echo $HADOOP_HOME
+   63  /home/hadoop/hadoop-3.3.5/hadoop
+   64  sudo adduser hadoop
+   65  su -hadoop
+   66  hadoop
+   67  JAVA_HOME
+   68  history
+   69  cd ~
+   70  wget https://downloads.apache.org/hadoop/common/hadoop-3.3.5/hadoop-3.3.5.tar.gz
+   71  tar -zxvf hadoop-3.3.5.tar.gz
+   72  gedit ~/.bashrc
+   73  source ~/.bashrc
+   74  hadoop
+   75  hadoop jar /home/hadoop/hadoop-3.3.5/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.5.jar grep /home/hadoop/input.txt /home/hadoop/mapreduce-output "hadoop"
+   76  ls
+   77  cat part-r-00000
+   78  vi/home/hadoop/input/txt
+   79  vi/home/hadoop/input.txt
+   80  cd mapreduce-output/
+   81  ls
+   82  cat part-r-00000
+   83  vi /home/hadoop/input.txt
+   84  history
+   85  ssh localhost
+   86  ssh-keygen -t rsa -p '' -f ~/.ssh/id_rsa
+   87  chmod 0600 ~/.ssh/authorized_keys
+   88  ls
+   89  cd mapreduce-output/
+   90  ssh localhost
+   91  chmod 0600 ~/.ssh/authorized_keys
+   92  cd sh-keygen -t rsa -p '' -f ~/.ssh/id_rsa
+   93  cd
+   94  ssh-keygen -t rsa -p '' -f ~/.ssh/id_rsa
+   95  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   96  history
+   97  chmod 0600 ~/.ssh/authorized_keys
+   98  cd sh-keygen -t rsa -p '' -f ~/.ssh/id_rsa
+   99  ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+  100  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+  101  ssh localhost
+  102  cd /home/hadoop/hadoop-3.3.5/etc/hadoop/
+  103  gedit hadoop-env.sh
+  104  ls core-site.xml hdfs-site.xml
+  105  cd mapreduce-output/
+  106  lsls
+  107  ssh localhost
+  108  sudo apt install ssh
+  109  sudo apt install pdsh
+  110  ssh localhost
+  111  ssh localhost
+  112  cd
+  113  ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+  114  chmod 0600 ~/.ssh/authorized_keys
+  115  ssh localhost
+  116  cd /home/hadoop/hadoop-3.3.5/etc/hadoop/
+  117  ls core-site.xml hdfs-site.xml
+  118  cp core-site.xml hdfs-site.xml.org
+  119  cd
+  120  cd /home/hadoop/hadoop-3.3.5/etc/hadoop/
+  121  gedit core-site.xml
+  122  cp hdfs-site.xml hdfs-site.xml.org
+  123  gedit core-site.xml
+  124  history
+  125  cd
+  126  ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+  127  chmod 0600 ~/.ssh/authorized_keys
+  128  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+  129  ssh localhost
+  130  cd /home/hadoop/hadoop-3.3.5/etc/hadoop/
+  131  ls core-site.xml hdfs-site.xml
+  132  cp core-site.xml hdfs-site.xml.org
+  133  cp hdfs-site.xml hdfs-site.xml.org
+  134  gedit core-site.xml
+  135  $HADOOP_HOME/etc/hadoop/core-site.xml
+  136  gedit core-site.xml
+  137  gedit .bashrc
+  138  cd
+  139  gedit core-site.xml
+  140  gedit .bashrc
+  141  cd /home/hadoop/hadoop-3.3.5/etc/hadoop/
+  142  gedit core-site.xml
+  143  gedit hdfs-site.xml
+  144  cd
+  145  hadoop namenode -format
+  146  clear
+  147  start-dfs.sh
+  148  gps
+  149  cd
+  150  jps
+  151  ps -ef | grep java
+  152  jps
+  153  hdfs namenode -format
+  154  start-dfs.sh
+  155  jps
+  156  ps -ef | grep java
+  157  jps
+  158  gedit .bashrc
+  159  jps
+  160  hdfs dfs -ls
+  161  clear
+  162  hdfs dfs -mkdir -p /user/hadoop/input-data
+  163  hdfs dfs -ls /
+  164  hdfs dfs -put /home/hadoop/input.txt /user/hadoop/input-data
+  165  hadoop
+  166  hdfs dfs -cat /user/hadoop/input-data/input.txt
+  167  hadoop jar /home/hadoop/hadoop-3.3.5/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.5.jar grep /user/hadoop/input-data/input.txt/user/hadoop/output-data "hadoop"
+  168  hdfs dfs -mkdir -p /user/hadoop/input
+  169  ls
+  170  ls hadoop-3.3.5 
+  171  ls sbin
+  172  cd hadoop-3.3.5 
+  173  cd hadoop-3.3.5
+  174  ls
+  175  cd etc
+  176  ls
+  177  cd hadoop
+  178  ls
+  179  cp core-site.xml core-site.xml.psuedo
+  180  cp hdfs-site.xml.org hdfs-site.xml.pseudo
+  181  hadoop namenod -format
+  182  history
+  183  clear
+  184  history
+  185  jps
+  186  ls
+  187  clear
+
