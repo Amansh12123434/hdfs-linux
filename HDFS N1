@@ -1,0 +1,44 @@
+			REFERENCE NOTES
+			------X---------
+
+HDFS
+===========
+-file broken down into blocks and stored across different machines
+-master slave architecture
+-store files across machines in cluster
+-concept of rack aware replication
+
+
+REPLICATION FACTOR
+=================
+-repication in order to backup data
+-
+tries to satisfy read request from replica closest to the reader
+---------------------------------------------------------------
+
+HDFS SAFE MODE
+==============
+-after name node starts 
+
+===================================================
+-HDFS namespace stored by Namenode
+-used editlog which is transaction log which namenode uses
+      -------
+-eventhough name is secondary node it is not active
+
+
+===================================================================end
+SUMMARY->
+--------
+-hdfs made of name nodes and datanodes
+-datnode and name node run on same machine/its a program(software)
+-name node program stores file with editlog
+-checkpoints(if too many editlogs it become larges it flushes fsi and flushes all the editlogs)
+-datanodes-each file is stored as an individual file
+-communication over tcp/ip,client/remote/local
+
+-anatomy of read and write
+-upper limit of datanode replication=no of namenodes
+-main uses of namenode is depend on commodity hardare (ie main node does not affect)
+
+
